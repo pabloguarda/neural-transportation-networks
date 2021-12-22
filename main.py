@@ -198,6 +198,9 @@ class weightMaskSimplexConstraint(object):
             # np.sum(w.detach().numpy(),axis = 1)
 
 class MaskedSoftmaxLinear(nn.Module):
+
+    # This is the class that I finally used
+
     def __init__(self, in_features, out_features, C):
         super(MaskedSoftmaxLinear, self).__init__()
         self.C = C
