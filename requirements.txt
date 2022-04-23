@@ -3,5 +3,5 @@ torchvision
 pandas
 matplotlib
 seaborn
-sklearn
+scikit-learn
 statsmodels
